@@ -80,35 +80,35 @@ window.ROUTE_LINES = [
   },
   {
     "from": "lo-stagnone",
-    "to": "morocco",
-    "mode": "flight",
-    "label": "9/30 ✈ PMO→FCO→CMN→RAK 8h",
-    "lpos": {
-      "x": 760,
-      "y": 1190,
-      "r": -8
-    }
-  },
-  {
-    "from": "morocco",
     "to": "malta",
-    "mode": "flight",
-    "label": "10/7 ✈ TNG→MAD→MLA 7h",
+    "mode": "train",
+    "label": "9/29 ⛴ TPS→Malta 1.5h",
     "lpos": {
-      "x": 790,
-      "y": 1230,
-      "r": 6
+      "x": 963,
+      "y": 1202,
+      "r": 48
     }
   },
   {
     "from": "malta",
-    "to": "tuscany",
+    "to": "gravel-tuscany",
     "mode": "flight",
-    "label": "10/10 ✈ MLA→FLR 3h",
+    "label": "10/3 ✈ MLA→FLR 3h",
     "lpos": {
-      "x": 1000,
-      "y": 1040,
-      "r": 65
+      "x": 1074,
+      "y": 1023,
+      "r": 69
+    }
+  },
+  {
+    "from": "gravel-tuscany",
+    "to": "tuscany",
+    "mode": "drive",
+    "label": "10/9 🚗 Montalcino→Chianti 1h",
+    "lpos": {
+      "x": 880,
+      "y": 977,
+      "r": 30
     }
   },
   {
